@@ -1,0 +1,216 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50.73px;
+    background: #212121;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 71px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    /* text-decoration: none; */
+}
+
+.menu .menu_iteam {
+    border-right: 2px dotted black;
+    padding-right: 27px;
+}
+
+.subheader {
+    margin-top: 51px;
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 19px;
+}
+
+.subheader .subheader_official {
+    opacity: 0.6;
+    margin: 0;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call {
+    opacity: 0.6;
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_pfone {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .call_btn {
+    margin-top: 22px;
+    width: 172px;
+    height: 46px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(5, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 799px;
+    background: url(/src/img/BG/uber_bg.png) center center/cover no-repeat;
+    padding: 152px 0 185px 0;
+}
+
+.promo .promo_header {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+
+.promo .promo_subheader {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.promo .promo_text {
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block; 
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.advantage .advantage_beckground {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    margin-top: 20px;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.advantage .advantage_header {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.advantage .advantage_wrapper .advantage_iteam 
+.advantage_round {
+    margin: 0 25px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+}
+
+.advantage .advantage_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.advantage .advantage_wrapper 
+.advantage_descr .advantage_subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.advantage .advantage_wrapper 
+.advantage_descr .advantage_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+}
+
